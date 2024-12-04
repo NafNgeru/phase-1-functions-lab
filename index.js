@@ -8,7 +8,7 @@ console.log(distanceFromHqInBlocks(40))
 
 function distanceFromHqInFeet(value){
     distanceFromHqInBlocks(value);
-    distanceInFeet = distanceFromHqInBlocks(value) * 264
+    let distanceInFeet = distanceFromHqInBlocks(value) * 264
     return distanceInFeet;
     
 }
@@ -17,7 +17,7 @@ console.log(distanceFromHqInFeet(50))
 
 function distanceTravelledInFeet(start, destination) {
     //returns the number of feet traveled
-    travelledInFeet = (start - destination) * 264
+    let travelledInFeet = (start - destination) * 264
     return Math.abs(travelledInFeet);
   }
 
